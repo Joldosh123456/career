@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
+
   return (
     <div className="App">
       <Routes>
@@ -21,8 +22,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-      <h1>Hello Dream Team</h1>
-    </div>  
+      
+    </div>
   );
 }
 
