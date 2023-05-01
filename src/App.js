@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
+
   return (
     <div className="App">
       <Routes>
@@ -20,8 +21,9 @@ function App() {
         <Route path="/blogdetails" element={<BlogDetailsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </div>  
+      </Routes> 
+    </div>
+
   );
 }
 

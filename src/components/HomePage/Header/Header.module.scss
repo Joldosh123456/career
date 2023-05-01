@@ -1,5 +1,115 @@
 .header {
   position: fixed;
-  margin-top: 40px;
+  padding: 40px 0 20px 0;
   display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid red;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #919eab;
+
+    a,
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #919eab;
+      display: inline-block;
+      transition: color 0.2s ease;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      gap: 8px;
+      img {
+        display: none;
+      }
+      ul {
+        display: none;
+      }
+
+      &:hover,
+      &.activeLink {
+        &::before {
+          width: 100%;
+          left: 100;
+          color: rgb(255, 255, 255);
+          content: url(../../../assets/Header/dot.svg);
+        }
+      }
+      &::before {
+        // transition: 0.2s cubic-bezier(0.51, 0.18, 0, 0.88);
+        // background: #fa541c;
+        position: absolute;
+        left: -15px;
+        top: -2px;
+      }
+      &:hover {
+        color: white;
+        img {
+          display: block;
+        }
+        ul {
+          display: block;
+        }
+      }
+    }
+
+    .page {
+      width: 60px;
+      position: relative;
+      ul {
+        list-style: none;
+        position: absolute;
+        margin-top: 20px;
+
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .headerRight {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    img {
+      cursor: pointer;
+    }
+    .layer {
+      margin-left: -28px;
+      cursor: auto;
+    }
+    button {
+      margin-left: -20px;
+      padding: auto;
+      width: 90px;
+      height: 36px;
+      border-radius: 8px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      display: flex;
+      background-color: var(--background-color);
+      color: var(--text-colorP);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+    }
+  }
 }
