@@ -21,7 +21,8 @@ function App() {
         <Route path="/blogdetails" element={<BlogDetailsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-      </Routes> 
+      </Routes>
+      {/* <h1>Hello Dream Team</h1> */}
     </div>
 
   );
