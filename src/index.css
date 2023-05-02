@@ -12,3 +12,24 @@ code {
     monospace;
 } */
 
+html[data-theme="dark"] {
+  --button-text-color: #ffffff;
+  --text-colorH: #ffffff;
+  --text-colorP: #919eab;
+  --button-background-color: #4e005c;
+  --button-border-color: #ba8fc2;
+
+  --background-color: #161c24;
+  --icon-color: #ba8fc2;
+}
+
+html[data-theme="light"] {
+  --button-text-color: #252525;
+  --text-colorP: #212b36;
+  --text-colorH: #211b36;
+  --button-background-color: #f9d4ff;
+  --button-border-color: #4e005c;
+
+  --background-color: #ffffff;
+  --icon-color: #4e005c;
+}
