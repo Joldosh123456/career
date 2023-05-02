@@ -7,10 +7,16 @@
     "headerLogin": "Login",
     "headerJoin": "Join Us"
   },
-  "get":{
-      "get1": "Get the ",
-      "get2": "Career",
-      "get3": "Your Deserve"
+  "get": {
+    "get1": "Get the ",
+    "get2": "Career",
+    "get3": "Your Deserve",
+    "get4": "Due to the fear of change, coupled with uncertainty about the possibilities, forces prevent us from moving forward. Including the career path.",
+    "get5": "Job title, keywords...",
+    "get6": "Location",
+    "get7": "Jobs",
+    "get8": "Successful Hiring",
+    "get9": "Partners",
+    "get10": "Employee"
   }
 }
- 
