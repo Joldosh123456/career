@@ -18,25 +18,43 @@ function GetCareer() {
         <div className={scss.getCareer}>
           <div className={scss.getLeft}>
             <div className={scss.leftTitle}>
-              <h3>{t("get.get1")}</h3>
-              <h3 className={scss.careerH}>{t("get.get2")}</h3>
+              <div className={scss.subtitle}>
+                <h3>
+                  {t("get.get1")}
+                  <h3 className={scss.careerH}>{t("get.get2")}</h3>
+                </h3>
+
+                {/* <h3 className={scss.careerH}>{t("get.get2")}</h3> */}
+              </div>
+
               <h3>{t("get.get3")}</h3>
               <p>{t("get.get4")}</p>
             </div>
             <div className={scss.searvhBlock}>
-              <img src={searchIcon} alt="search" />
-              <input type="text" placeholder={t("get.get5")} />
-              <img src={location} alt="location" />
-              <input type="text" placeholder={t("get.get6")} />
+              <div className={scss.searchInput}>
+                <img src={searchIcon} alt="search" />
+                <input type="text" placeholder={t("get.get5")} />
+              </div>
+
+              <div className={scss.locationInput}>
+                <img src={location} alt="location" />
+                <input type="text" placeholder={t("get.get6")} />
+              </div>
+
               <button>
                 <img src={search} alt="search" />
+                <p>{t("get.get11")}</p>
               </button>
             </div>
             <div className={scss.socialBlock}>
-              <img src={spotify} alt="image" />
-              <img src={slack} alt="image" />
-              <img src={netflix} alt="image" />
-              <img src={lenovo} alt="image" />
+              <div>
+                <img src={spotify} alt="image" />
+                <img src={slack} alt="image" />
+              </div>
+              <div>
+                <img src={netflix} alt="image" />
+                <img src={lenovo} alt="image" />
+              </div>
             </div>
             <div className={scss.ratingBlock}>
               <div className={scss.rating}>
