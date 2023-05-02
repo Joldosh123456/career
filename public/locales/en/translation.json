@@ -6,5 +6,11 @@
     "headerDocum": "Documentation",
     "headerLogin": "Login",
     "headerJoin": "Join Us"
+  },
+  "get":{
+      "get1": "Get the ",
+      "get2": "Career",
+      "get3": "Your Deserve"
   }
 }
+ 
