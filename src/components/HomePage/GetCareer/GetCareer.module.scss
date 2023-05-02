@@ -1,6 +1,5 @@
 .getCareerBG {
   width: 100%;
-  height: 880px;
   background-image: url(../../../assets/GetCareer/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +7,8 @@
   .getCareer {
     display: flex;
     justify-content: space-between;
-    padding-top: 140px;
-    div {
-      border: 1px solid red;
-    }
+    padding: 140px 0;
+
     .getLeft {
       width: 38%;
       .leftTitle {
@@ -26,10 +23,96 @@
           line-height: 80px;
           color: #ffffff;
         }
+        .careerH {
+          color: #fa541c;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: #919eab;
+          margin-top: 24px;
+        }
+      }
+      .searvhBlock {
+        width: 100%;
+        height: 64px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5px;
+        margin-top: 48px;
+        img {
+          height: 21px;
+        }
+        input {
+          height: 21px;
+          margin-left: -25px;
+          outline: none;
+          border: none;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #919eab;
+          width: 140px;
+        }
+        button {
+          width: 48px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #fa541c;
+          border: none;
+          border-radius: 8px;
+        }
+      }
+      .socialBlock {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 65px 0 96px 0;
+      }
+      .ratingBlock {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .rating {
+          height: 66px;
+          text-align: center;
+          h3 {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #ffffff;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            color: #ffffff;
+            opacity: 0.48;
+          }
+        }
       }
     }
     .getRight {
-      width: 38%;
+      width: 50%;
+      display: flex;
+      img {
+        width: 100%;
+        margin: auto 0;
+      }
     }
   }
 }
