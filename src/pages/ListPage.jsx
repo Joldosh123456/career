@@ -1,8 +1,18 @@
 import React from 'react'
+// import Mapslide from '../components/Mapslide/Mapslide'
+// import Mapslider from '../Constants/Mapslider'
+
+
 
 function ListPage() {
   return (
-    <div>ListPage</div>
+    <div>
+    {/* {
+      Mapslider.map((el)=> ( 
+        <Mapslide key={el.id} {...el}/>
+      ))
+    } */}
+    </div>
   )
 }
 

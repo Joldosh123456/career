@@ -4,6 +4,7 @@ import Header from "../components/HomePage/Header/Header";
 import Footer from "../components/HomePage/Footer/Footer";
 import Small from "../components/SmallCard/Small";
 
+
 function HomePage() {
   return (
     <div>
