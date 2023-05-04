@@ -7,10 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.App {
-  background-color: var(--background-color);
-  color: var(--text-colorH);
-}
 .container {
   width: 80%;
   margin: 0 auto; 
