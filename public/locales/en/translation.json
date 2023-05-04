@@ -7,6 +7,39 @@
     "headerLogin": "Login",
     "headerJoin": "Join Us"
   },
+  "contact": {
+    "contact1": "Get In Touch",
+    "contact2": "We'd love to talk about how we can help you.",
+    "contact3": "Email",
+    "contact4": "Phone",
+    "contact5": "Adress",
+    "contact6": "Follow us",
+    "contact7": "3891 Ranchview Dr. Richardson, California 62639",
+    "contact9": "Drop us a line",
+    "contact10": "We normally respond within 2 business days",
+    "contact11": "Name",
+    "contact12": "Email",
+    "contact13": "subject",
+    "contact14": "Message",
+    "contact15": "Send message",
+    "small11": "Upload Your CV"
+
+  },
+  "small":{
+    "small1": "For Candidates",
+    "small2": "Explore Thousands of Jobs",
+    "small3": "Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.",
+    "small4": "Step 1",
+    "small5": "Create an account",
+    "small6": "Nunc nonummy metus. Donec elit libero",
+    "small7": "Step 2",
+    "small8": "Complete your profile",
+    "small9": "Step 3",
+    "small10": "Search your job",
+    "small11": "Upload Your CV"
+
+
+    }
   "get": {
     "get1": "Get the ",
     "get2": "Career",
