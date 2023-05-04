@@ -11,7 +11,7 @@ function HomePage() {
       <Header />
       <GetCareer />
       <Small/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

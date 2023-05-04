@@ -3,6 +3,8 @@
   font-family: "Poppins";
   width: 100%;
   flex-direction: column;
+  background-color: var(--background-color);
+
   .main {
     gap: 60px;
     display: flex;
@@ -10,6 +12,8 @@
     align-items: center;
     width: 100%;
     margin-top: 140px;
+    color: var(--text-colorP);
+    color: var(--text-colorH);
     .main_end_center{ 
       display: flex;
       flex-direction: column;
@@ -19,6 +23,7 @@
       width: 100%;
       flex-direction: column;
       display: flex;
+
     }
     
   }

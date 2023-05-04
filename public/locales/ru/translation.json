@@ -1,12 +1,4 @@
 {
-    "header": {
-      "headerHome": "Главная",
-      "headerComp": "Компоненты",
-      "headerpages": "Страницы",
-      "headerDocum": "Документы",
-      "headerLogin": "Войти",
-      "headerJoin": "Регистрация"
-    },
     "contact": {
       "contact1": "Связаться с нами",
       "contact2": "Мы хотели бы поговорить о том, как мы можем вам помочь.",
@@ -37,7 +29,7 @@
     "small10": "Ищите свою работу",
     "small11": "Загрузите свое резюме"
 
-    }
+    },
   "header": {
     "headerHome": "Главная",
     "headerComp": "Компоненты",
