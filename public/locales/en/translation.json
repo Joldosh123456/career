@@ -19,5 +19,9 @@
     "get9": "Partners",
     "get10": "Employee",
     "get11": "Search"
+  },
+  "top":{
+    "top1": "Top Companies",
+    "top2": "123 jobs"
   }
 }

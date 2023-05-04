@@ -8,9 +8,9 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-
+// import "~slick-carousel/slick/slick.css";
+// import "~slick-carousel/slick/slick-theme.css";
 function App() {
-
   return (
     <div className="App">
       <Routes>
@@ -24,7 +24,6 @@ function App() {
       </Routes>
       {/* <h1>Hello Dream Team</h1> */}
     </div>
-
   );
 }
 
