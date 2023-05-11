@@ -4,6 +4,7 @@ import Header from "../components/HomePage/Header/Header";
 import Footer from "../components/HomePage/Footer/Footer";
 import TopCompanies from "../components/HomePage/TopCompaniesTask/TopCompanies";
 import Small from "../components/SmallCard/Small";
+import Hot from "../components/HomePage/Hot/Hot";
 
 
 function HomePage() {
@@ -12,8 +13,9 @@ function HomePage() {
       <Header />
       <GetCareer />
       <TopCompanies />
+      <Hot/>
       <Small/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

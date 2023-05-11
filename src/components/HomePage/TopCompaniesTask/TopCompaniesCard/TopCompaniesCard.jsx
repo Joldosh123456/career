@@ -7,7 +7,7 @@ function TopCompaniesCard({compLogo, jobs, nameComp}) {
   return (
     <div className={scss.companyCard}>
         <img src={compLogo} alt="" />
-        <p>{t(jobs)}</p>
+        <p>{t(jobs)}</p>  
         <h4>{nameComp}</h4>
     </div>
   )

@@ -15,7 +15,7 @@ export const TopCompConst = [
     id: 2,
     compLogo: comp2,
     jobs: "top.top2",
-    nameComp: "Heidenreich, Stokes and Parker",
+    nameComp: "Heidenreich, Stokes and",
   },
   {
     id: 3,
@@ -34,5 +34,35 @@ export const TopCompConst = [
     compLogo: comp5,
     jobs: "top.top2",
     nameComp: "Dare - Treutel",
-  }
+  },
+  {
+    id: 6,
+    compLogo: comp5,
+    jobs: "top.top2",
+    nameComp: "Dare - Treutel",
+  },,
+  {
+    id: 7,
+    compLogo: comp5,
+    jobs: "top.top2",
+    nameComp: "Dare - Treutel",
+  },,
+  {
+    id: 8,
+    compLogo: comp5,
+    jobs: "top.top2",
+    nameComp: "Dare - Treutel",
+  },,
+  {
+    id: 9,
+    compLogo: comp5,
+    jobs: "top.top2",
+    nameComp: "Dare - Treutel",
+  },
+  {
+    id: 10,
+    compLogo: comp5,
+    jobs: "top.top2",
+    nameComp: "Dare - Treutel",
+  },
 ];
