@@ -52,7 +52,7 @@ function Header() {
               </li>
             </ul>
           </p>
-        </div>
+        </div>  
 
         <a href="/">Documentation</a>
       </div>

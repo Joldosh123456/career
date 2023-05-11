@@ -1,7 +1,8 @@
 .topCompanies {
   background-color: var(--background-color);
-  border: 1px solid red;
   text-align: center;
+  padding: 80px 0;
+  
   h2 {
     font-family: "Barlow";
     font-style: normal;
@@ -9,25 +10,34 @@
     font-size: 48px;
     line-height: 64px;
     color: var(--text-colorH);
-    margin: 80px 0;
   }
   .top {
     text-align: center;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 0 0 80px 0;
     width: 100%;
+   
+    img {
+      cursor: pointer;
+    }
     .allComp {
-      border: 1px solid yellow;
-      display: flex;
+      display: flex !important;
       justify-content: space-around;
+      text-align: center;
+      
     }
     :global {
       .slick-slider {
         width: 80%;
-        
+        display: block;
+        text-align: center;
+        .slick-prev:before{
+          content: url(../../../assets/TopCompanies/prev.svg);
+        }
+        .slick-next:before{
+          content: url(../../../assets/TopCompanies/next.svg);
+        }
       }
     }
   }

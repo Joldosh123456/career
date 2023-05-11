@@ -56,5 +56,18 @@
   "top":{
     "top1": "Top Companies",
     "top2": "123 jobs"
+  },
+  "hot":{
+    "hot1": "Accounting / Finance",
+    "hot2": "Marketing",
+    "hot3": "Design",
+    "hot4": "Development",
+    "hot5": "IT - Hardware",
+    "hot6": "Customer Service",
+    "hot7": "Health and Care",
+    "hot8": "Banking",
+    "hot9": "123 jobs",
+    "hot10": "Hot Categories",
+    "hot11": "View All Categories"
   }
 }

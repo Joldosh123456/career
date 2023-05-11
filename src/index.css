@@ -20,6 +20,7 @@ html[data-theme="dark"] {
   --button-border-color: #ba8fc2;
 
   --background-color: #161c24;
+  --backgroun-color-grey: #a6b2c01d;
   --icon-color: #ba8fc2;
 }
 
@@ -31,5 +32,7 @@ html[data-theme="light"] {
   --button-border-color: #4e005c;
 
   --background-color: #ffffff;
+  --backgroun-color-grey: #ffffff;
+
   --icon-color: #4e005c;
 }
