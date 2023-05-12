@@ -6,6 +6,7 @@ import TopCompanies from "../components/HomePage/TopCompaniesTask/TopCompanies";
 import Small from "../components/SmallCard/Small";
 import Hot from "../components/HomePage/Hot/Hot";
 import GlobalTask from "../components/HomePage/GlobalTask/GlobalTask";
+import Position from "../components/HomePage/Position/Position";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <TopCompanies />
       <Hot />
       <GlobalTask />
+      <Position/>
       <Small />
       {/* <Footer/> */}
     </div>

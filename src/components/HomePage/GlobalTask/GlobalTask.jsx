@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import scss from "./GlobalTask.module.scss";
 import { useTranslation } from "react-i18next";
 import browse from "../../../assets/GlobalTask/browse.svg";
-import city1 from "../../../assets/GlobalTask/city1.svg";
 import Slider from "react-slick";
 import { GlobalConst } from "../../../constants/GlobalConst";
 import GlobalTaskCard from "./GlobalTaskCard/GlobalTaskCard";
