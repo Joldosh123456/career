@@ -23,9 +23,8 @@
     "contact14": "Message",
     "contact15": "Send message",
     "small11": "Upload Your CV"
-
   },
-  "small":{
+  "small": {
     "small1": "For Candidates",
     "small2": "Explore Thousands of Jobs",
     "small3": "Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.",
@@ -37,9 +36,7 @@
     "small9": "Step 3",
     "small10": "Search your job",
     "small11": "Upload Your CV"
-
-
-    },
+  },
   "get": {
     "get1": "Get the ",
     "get2": "Career",
@@ -53,11 +50,11 @@
     "get10": "Employee",
     "get11": "Search"
   },
-  "top":{
+  "top": {
     "top1": "Top Companies",
     "top2": "123 jobs"
   },
-  "hot":{
+  "hot": {
     "hot1": "Accounting / Finance",
     "hot2": "Marketing",
     "hot3": "Design",
@@ -69,5 +66,14 @@
     "hot9": "123 jobs",
     "hot10": "Hot Categories",
     "hot11": "View All Categories"
+  },
+  "global": {
+    "global1": "Global Connections",
+    "global2": "Global Connections offers a transdisciplinary approach to learning through an innovative blended format which encourages students to share insights as co-collaborators.",
+    "global3": "Browse All",
+    "global4": "Bahamas",
+    "global5": "Comoros",
+    "global6": "Azerbaijan",
+    "global7": "196 Jobs"
   }
 }
