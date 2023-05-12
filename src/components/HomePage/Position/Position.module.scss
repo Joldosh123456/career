@@ -1,0 +1,91 @@
+.position {
+  padding: 147px 0;
+  background-image: url(../../../assets/Position/posBg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: 576px) {
+    padding: 0;
+  }
+  .post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .positionLeft {
+      width: 35%;
+      padding: 55px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      .orangeTxt {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fa541c;
+      }
+      h4 {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #ffffff;
+        margin: 16px 0 24px 0;
+      }
+      .postDesc {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        opacity: 0.72;
+      }
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 22px;
+        gap: 8px;
+        width: 155px;
+        height: 48px;
+        background: #fa541c;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin: 40px 0 0 0;
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 26px;
+          color: #ffffff;
+        }
+      }
+    }
+    .positionRight {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 576px) {
+      .positionRight {
+        display: none;
+      }
+      .positionLeft {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 55px 0;
+        h4 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
