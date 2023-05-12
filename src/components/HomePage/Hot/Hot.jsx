@@ -1,6 +1,5 @@
 import React from "react";
 import scss from "./Hot.module.scss";
-// import cat1black from "../../../assets/Hot/cat1.svg";
 import viewall from "../../../assets/Hot/viewall.svg";
 import { HotConst } from "../../../constants/HotConst";
 import HotCard from "./HotCard/HotCard";
@@ -16,7 +15,7 @@ function Hot() {
           <h2>{t("hot.hot10")}</h2>
           <div className={scss.allcategories}>
             {HotConst.map((item) => (
-              <HotCard key={item} {...item} />
+              <HotCard key={item.id} {...item} />
             ))}
           </div>
           <div className={scss.viewAll}>
