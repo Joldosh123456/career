@@ -8,6 +8,8 @@ import Hot from "../components/HomePage/Hot/Hot";
 import GlobalTask from "../components/HomePage/GlobalTask/GlobalTask";
 import Position from "../components/HomePage/Position/Position";
 import Customer from "../components/HomePage/Customer/Customer";
+import ClientTask from "../components/HomePage/ClientsTask/ClientTask";
+import DownloadApp from "../components/HomePage/DownloadApp/DownloadApp";
 
 function HomePage() {
   return (
@@ -17,8 +19,10 @@ function HomePage() {
       <TopCompanies />
       <Hot />
       <GlobalTask />
-      <Position/>
-      <Customer/>
+      <Position />
+      <Customer />
+      <ClientTask />
+      <DownloadApp />
       <Small />
       {/* <Footer/> */}
     </div>
