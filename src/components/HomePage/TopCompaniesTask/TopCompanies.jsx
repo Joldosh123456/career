@@ -13,44 +13,30 @@ function TopCompanies() {
     infinite: true,
     speed: 500,
     arrows: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className={scss.topCompanies}>
-      {/* <div className="container"> */}
       <h2>{t("top.top1")}</h2>
       <div className={scss.top}>
-        <button>=====</button>
-
         <Slider ref={arrowRef} {...settings}>
-          <div className={scss.allComp}>
-            {TopCompConst.map((item) => (
+          {TopCompConst.map((item) => (
+            <div className={scss.allComp}>
               <TopCompaniesCard key={item.id} {...item} />
-            ))}
-          </div>
-
-          <div className={scss.allComp}>
-            {TopCompConst.map((item) => (
-              <TopCompaniesCard key={item.id} {...item} />
-            ))}
-          </div>
-
-          {/* <div>
-            <h2>Hello</h2>
-          </div>
-
-          <div>
-            <h2>Hello</h2>
-          </div>
-
-          <div>
-            <h2>Hello</h2>
-          </div> */}
+            </div>
+          ))}
         </Slider>
-        <button>=====</button>
       </div>
-      {/* </div> */}
     </div>
   );
 }

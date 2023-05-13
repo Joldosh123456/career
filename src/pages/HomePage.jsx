@@ -4,7 +4,12 @@ import Header from "../components/HomePage/Header/Header";
 import Footer from "../components/HomePage/Footer/Footer";
 import TopCompanies from "../components/HomePage/TopCompaniesTask/TopCompanies";
 import Small from "../components/SmallCard/Small";
-
+import Hot from "../components/HomePage/Hot/Hot";
+import GlobalTask from "../components/HomePage/GlobalTask/GlobalTask";
+import Position from "../components/HomePage/Position/Position";
+import Customer from "../components/HomePage/Customer/Customer";
+import ClientTask from "../components/HomePage/ClientsTask/ClientTask";
+import DownloadApp from "../components/HomePage/DownloadApp/DownloadApp";
 
 function HomePage() {
   return (
@@ -13,7 +18,14 @@ function HomePage() {
       <GetCareer />
       <TopCompanies />
       <Small/>
-      <Footer/>
+      <Hot />
+      <GlobalTask />
+      <Position />
+      <Customer />
+      <ClientTask />
+      <DownloadApp />
+      <Small />
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -23,9 +23,8 @@
     "contact14": "Message",
     "contact15": "Send message",
     "small11": "Upload Your CV"
-
   },
-  "small":{
+  "small": {
     "small1": "For Candidates",
     "small2": "Explore Thousands of Jobs",
     "small3": "Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.",
@@ -37,9 +36,7 @@
     "small9": "Step 3",
     "small10": "Search your job",
     "small11": "Upload Your CV"
-
-
-    },
+  },
   "get": {
     "get1": "Get the ",
     "get2": "Career",
@@ -53,7 +50,7 @@
     "get10": "Employee",
     "get11": "Search"
   },
-  "top":{
+  "top": {
     "top1": "Top Companies",
     "top2": "123 jobs"
   },
@@ -131,6 +128,48 @@
     "slide20": "Advertisement",
     "slide21": "Duis leo. Donec orci lectus, aliquam ut, faucibus non",
     "slide22": "Go Now"
-
+  },
+  "hot": {
+    "hot1": "Accounting / Finance",
+    "hot2": "Marketing",
+    "hot3": "Design",
+    "hot4": "Development",
+    "hot5": "IT - Hardware",
+    "hot6": "Customer Service",
+    "hot7": "Health and Care",
+    "hot8": "Banking",
+    "hot9": "123 jobs",
+    "hot10": "Hot Categories",
+    "hot11": "View All Categories"
+  },
+  "global": {
+    "global1": "Global Connections",
+    "global2": "Global Connections offers a transdisciplinary approach to learning through an innovative blended format which encourages students to share insights as co-collaborators.",
+    "global3": "Browse All",
+    "global4": "Bahamas",
+    "global5": "Comoros",
+    "global6": "Azerbaijan",
+    "global7": "196 Jobs"
+  },
+  "post": {
+    "post1": "FOR RECRUITERS",
+    "post2": "Do You Have A Position To Post Job?",
+    "post3": "They are also asking me if i would like to discuss it or if i know anyone who is suitable as well.",
+    "post4": "Post a Job"
+  },
+  "customer": {
+    "customer1": "What Our Customer Say",
+    "customer2": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.",
+    "customer3": "Robert Fox",
+    "customer4": "Designer"
+  },
+  "clients": {
+    "clients1": "Our Clients",
+    "clients2": "We may teach skills to our clients, but let us not forget what they can teach us."
+  },
+  "download": {
+    "download1": "Download App",
+    "download2": "Now finding the new job just got even easier with our new app!",
+    "download3": "Download on the"
   }
 }
