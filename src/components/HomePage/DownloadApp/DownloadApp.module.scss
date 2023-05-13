@@ -1,0 +1,118 @@
+.download {
+  background-color: var(--background-color);
+  padding: 170px 0;
+  @media (max-width: 576px) {
+    // padding: 70px 0;
+  }
+  .app {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(250, 84, 28, 0.08);
+    border-radius: 24px;
+    // transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 120px 0;
+    @media (max-width: 576px) {
+      width: 100%;
+      flex-direction: column;
+      gap: 68px;
+      padding: 20px;
+    }
+    .appLeft {
+      width: 30%;
+      @media (max-width: 576px) {
+        width: 100%;
+        text-align: center;
+      }
+      h2 {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: var(--text-colorH);
+      }
+      .appDesc {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--text-colorP);
+        margin: 24px 0 48px 0;
+      }
+      .buttons {
+        display: flex;
+        gap: 16px;
+        @media (max-width: 576px) {
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+        }
+        .button {
+          width: 162px;
+          height: 56px;
+          background: linear-gradient(180deg, #161c24 0%, #000000 100%);
+          border: 1px solid rgba(0, 0, 0, 0.24);
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .buttonLeft {
+            width: 20%;
+            height: 95%;
+            display: flex;
+            align-items: center;
+          }
+          .buttonRight {
+            width: 70%;
+            height: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            color: #ffffff;
+            opacity: 0.72;
+          }
+          h5 {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .appRight {
+      width: 60%;
+      position: relative;
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+      img {
+        position: absolute;
+        width: 100%;
+        height: 320%;
+        top: -95%;
+        left: 25%;
+        @media (max-width: 576px) {
+          width: 100%;
+          position: static;
+          left: 25%;
+        }
+      }
+    }
+  }
+}
