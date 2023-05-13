@@ -1,8 +1,11 @@
 import React from 'react'
+import Detalis from '../components/DetalisPage/Detalis'
 
 function DetailsPage() {
   return (
-    <div>DetailsPage</div>
+    <div>
+      <Detalis/>
+    </div>
   )
 }
 

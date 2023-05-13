@@ -17,6 +17,7 @@ function HomePage() {
       <Header />
       <GetCareer />
       <TopCompanies />
+      <Small/>
       <Hot />
       <GlobalTask />
       <Position />

@@ -1,0 +1,113 @@
+.top{ 
+    width: 100%;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{ 
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.text_color{ 
+    display: flex;
+    justify-content: space-around;
+}
+.text_color p{ 
+    text-align: center;
+    width: 120px;
+    border-radius: 12px;
+    background: rgba(145, 158, 171, 0.16);
+  color: var(--text-colorP);
+
+
+}
+.text_color p:hover{ 
+    color: red;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.bottom_card{ 
+    width: 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    
+    div{ 
+        display: flex;
+        cursor: pointer; 
+        gap: 6px;   
+    }
+}
+.bottom_text{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+.bottom_card div:hover{ 
+    color: rebeccapurple;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+    background-color: silver;
+    border-radius: 10px;
+    align-items: center;
+}
+.size{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .top{ 
+        ul{
+            font-size: 12px;
+        }
+        div{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 10px 10px 10px 10px;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .bottom_card{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        height: 300px;
+        div{ 
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+    }
+    .text_color{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+    .text h2 { 
+        width: 100%;
+        text-align: left;
+    }
+}

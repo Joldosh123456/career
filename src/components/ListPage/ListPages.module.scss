@@ -1,0 +1,35 @@
+.map{ 
+width: 100%;
+align-items: center;
+
+}
+
+.size{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+ }
+ .wrapper{ 
+  background-color: var(--background-color);
+  gap: 120px;  
+  display: flex;
+  flex-direction: column;
+
+ }
+ .wrapper_input{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+ }
+ .fot{ 
+    margin-top: 70px;
+ }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .size{ 
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+   }
+}
