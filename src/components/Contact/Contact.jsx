@@ -52,6 +52,11 @@ function Contact() {
             <h1>{t("contact.contact9")}</h1>
             <p>{t("contact.contact10")}</p>
           </div>
+          <div className={css.map}> 
+          <iframe src="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.685116%2C55.779982&z=14.16" width="500px" height="500px" >
+
+</iframe>
+          </div>
           <input id={css.main_end_input} type="text" placeholder={t("contact.contact11")} />
           <input id={css.main_end_input} type="text" placeholder={t("contact.contact12")} />
           <input id={css.main_end_input} type="text" placeholder={t("contact.contact13")} />

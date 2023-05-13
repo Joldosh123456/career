@@ -13,7 +13,7 @@ function HomePage() {
       <GetCareer />
       <TopCompanies />
       <Small/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

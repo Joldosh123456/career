@@ -1,0 +1,86 @@
+.shadow {
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+.gaps {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  border-radius: 20px;
+  cursor: pointer;
+  .image img {
+    width: 55px;
+
+    height: 60px;
+  }
+}
+.card p:hover {
+  color: red;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  gap: 30px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  #color {
+    color: #fa541c;
+  }
+  p {
+    color: #919eab;
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+}
+.bottom_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+.bottom_text h2:hover {
+  color: red;
+}
+.image_end {
+  background-image: url("../../assets/SmallCardDetalis/bacgraund.png");
+  width: 340px;
+  padding: 120px 50px 50px 50px;
+  height: 340px;
+  border-radius: 20px;
+  text-align: center;
+  button {
+    align-items: center;
+    background: #FA541C;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+    color: white;
+  }
+  label {
+    display: none;
+    h2 {
+      color: aqua;
+    }
+    p {
+      color: white;
+    }
+  }
+  &:hover {
+    label {
+      display: block;
+    }
+  }
+}

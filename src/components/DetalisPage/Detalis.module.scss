@@ -1,0 +1,48 @@
+.all_tegs{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  font-family: "Poppins";
+  padding-top: 120px;
+
+    .left{ 
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .right{ 
+        width: 30%;
+    }
+
+}
+.wrapper{ 
+  background-color: var(--background-color);
+  color: var(--text-colorP);
+  color: var(--text-colorH);
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .wrapper{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .all_tegs{ 
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      .left{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+      }
+      .right{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+  }
+}
+
