@@ -10,12 +10,14 @@ import Position from "../components/HomePage/Position/Position";
 import Customer from "../components/HomePage/Customer/Customer";
 import ClientTask from "../components/HomePage/ClientsTask/ClientTask";
 import DownloadApp from "../components/HomePage/DownloadApp/DownloadApp";
+import News from "../components/HomePage/News/News";
 
 function HomePage() {
   return (
     <div>
       <Header />
       <GetCareer />
+      <News/>
       <TopCompanies />
       <Small/>
       <Hot />

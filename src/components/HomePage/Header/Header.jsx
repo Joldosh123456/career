@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback ,useEffect } from "react";
 import scss from "./Header.module.scss";
 import logo from "../../../assets/Header/logo.svg";
 import vector from "../../../assets/Header/vector.svg";
@@ -11,6 +11,21 @@ import { useState } from "react";
 
 function Header() {
   const { t, i18n } = useTranslation();
+  const [isActive, setActive] = useState(false);
+  const handleScroll = useCallback(() => {
+    if (window.scrollY > 500) {
+      setActive(true);
+    } else {
+      setActive(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [handleScroll]);
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -19,7 +34,7 @@ function Header() {
   const [inp, setInp] = useState(false);
 
   return (
-    <div className={scss.header}>
+    <div className={scss.header} style={{background : isActive ? "white" : ""}}>
       <div className={scss.headerLeft}>
         <img src={logo} alt="Logo Image" />
         <a href="/">{t("header.headerHome")}</a>
@@ -52,7 +67,7 @@ function Header() {
               </li>
             </ul>
           </p>
-        </div>  
+        </div>
 
         <a href="/">Documentation</a>
       </div>
