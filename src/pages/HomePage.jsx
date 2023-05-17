@@ -11,6 +11,7 @@ import Customer from "../components/HomePage/Customer/Customer";
 import ClientTask from "../components/HomePage/ClientsTask/ClientTask";
 import DownloadApp from "../components/HomePage/DownloadApp/DownloadApp";
 import News from "../components/HomePage/News/News";
+import Featured from "../components/Featured/Featured";
 
 function HomePage() {
   return (
@@ -18,15 +19,16 @@ function HomePage() {
       <Header />
       <GetCareer />
       <Small />
+      <Featured />
       <TopCompanies />
       <Hot />
       <GlobalTask />
       <Position />
       <Customer />
       <ClientTask />
-      <News/>
+      <News />
       <DownloadApp />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -4,10 +4,29 @@ import Header from "../HomePage/Header/Header";
 import { MapSlider } from "../../constants/MapSlider";
 import Mapslide from "../Mapslide/Mapslide";
 import Footer from "../HomePage/Footer/Footer";
-import search from '../../components/ListPage/search.png'
-
+import search from "../../components/ListPage/search.png";
+import Slider from "react-slick";
 
 function ListPages() {
+  // const maprender = MapSlider.map((el) => <Mapslide key={el.id} {...el} />);
+
+  const settings = {
+    dots: true,
+    infinite: true, 
+    speed: 500,
+    arrows: false,
+    slidesToShow: 12,
+    slidesToScroll: 12,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className={css.wrapper}>
       <div className={css.headers}>
@@ -15,20 +34,20 @@ function ListPages() {
       </div>
       <div className={css.inputs}>
         <div className={css.inpt}>
-        <div>
+          <div>
             <input type="text" placeholder="Job title, keywords..." />
-        </div>
-        <div>
+          </div>
+          <div>
             <input type="text" placeholder="Categories" />
-        </div>
-        <div>
-            <input type="text"  placeholder="Locations"/>
-        </div>
-        <div>
+          </div>
+          <div>
+            <input type="text" placeholder="Locations" />
+          </div>
+          <div>
             <button>
-                <img src={search} alt="" />
+              <img src={search} alt="" />
             </button>
-        </div>
+          </div>
         </div>
       </div>
       <div className={css.options}>
@@ -81,11 +100,22 @@ function ListPages() {
       </div>
       <div className="container">
         <div className={css.map}>
+          <Slider {...settings}>
+            {/* <h2>1</h2>
+            <h2>2</h2>
+            <h2>3</h2>
+            <h2>4</h2>
+            <h2>5</h2>
+            <h2>6</h2>
+            <h2>7</h2>
+            <h2>8</h2>
+          <h2>9</h2> */}
+              {MapSlider.map((el) => (
           <div className={css.size}>
-            {MapSlider.map((el) => (
-              <Mapslide key={el.id} {...el} />
-            ))}
-          </div>
+                <Mapslide key={el.id} {...el} />
+            </div>
+              ))}
+          </Slider>
         </div>
       </div>
 
