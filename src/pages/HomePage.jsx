@@ -17,17 +17,16 @@ function HomePage() {
     <div>
       <Header />
       <GetCareer />
-      <News/>
+      <Small />
       <TopCompanies />
-      <Small/>
       <Hot />
       <GlobalTask />
       <Position />
       <Customer />
       <ClientTask />
+      <News/>
       <DownloadApp />
-      <Small />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

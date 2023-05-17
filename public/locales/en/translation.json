@@ -54,7 +54,7 @@
     "top1": "Top Companies",
     "top2": "123 jobs"
   },
-  "map":{ 
+  "map": {
     "map1": "Nursing Assistant",
     "map2": "Raynor Group",
     "map3": "Posted day: October 24, 2018",
@@ -76,37 +76,37 @@
     "map19": "working day",
     "map20": "Freelance"
   },
-  "deta":{ 
+  "deta": {
     "deta1": "Job Description",
     "deta2": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
     "deta3": "Key Responsibilities",
     "deta4": "Working with agency for design drawing detail, quotation and local production0",
-    "deta5":"Produce window displays, signs, interior displays, floor plans and special promotions displays" ,
-    "deta6":"Change displays to promote new product launches and reflect festive or seasonal themes",
-    "deta7":"Planning and executing the open/renovation/ closing store procedure",
-    "deta8":" Follow‐up store maintenance procedure and keep updating SKU In & Out",
-    "deta9":"Monitor costs and work within budget",
-    "deta10":"Job Skills",
-    "deta11":"Photography",
-    "deta12":"Design",
-    "deta13":"Art",
-    "deta14":"History ",
-    "deta15":"Museums",
-    "deta16":"Creativity",
-    "deta17":"History",
-    "deta18":"Other Benefits",
-    "deta19":"Free parking",
-    "deta20":"Bonus commission",
-    "deta21":"Travel",
-    "deta22":"Training",
-    "deta23":"Device support",
-    "deta24":"Health care",
+    "deta5": "Produce window displays, signs, interior displays, floor plans and special promotions displays",
+    "deta6": "Change displays to promote new product launches and reflect festive or seasonal themes",
+    "deta7": "Planning and executing the open/renovation/ closing store procedure",
+    "deta8": " Follow‐up store maintenance procedure and keep updating SKU In & Out",
+    "deta9": "Monitor costs and work within budget",
+    "deta10": "Job Skills",
+    "deta11": "Photography",
+    "deta12": "Design",
+    "deta13": "Art",
+    "deta14": "History ",
+    "deta15": "Museums",
+    "deta16": "Creativity",
+    "deta17": "History",
+    "deta18": "Other Benefits",
+    "deta19": "Free parking",
+    "deta20": "Bonus commission",
+    "deta21": "Travel",
+    "deta22": "Training",
+    "deta23": "Device support",
+    "deta24": "Health care",
     "deta25": "Location",
     "deta26": "Why You'll Love Working Here",
     "deta27": "Liaise with suppliers and source elements"
   },
-  "slider":{ 
-    "slide1": "Date Posted" ,
+  "slider": {
+    "slide1": "Date Posted",
     "slide2": "October 24, 2018",
     "slide3": "Expiration date",
     "slide4": "Expires in 7 days",
@@ -171,5 +171,23 @@
     "download1": "Download App",
     "download2": "Now finding the new job just got even easier with our new app!",
     "download3": "Download on the"
+  },
+  "footer": {
+    "footer1": "Get The Right Job For You",
+    "footer2": "Subscribe to get updated on latest and relevant career opportunities",
+    "footer3": "Subscribe",
+    "footer4": "The starting point for your next project based on easy-to-customize Material-UI © helps you build apps faster and better.",
+    "footer5": "655 Schaefer Dale",
+    "footer6": "© 2021. All rights reserved",
+    "footer7": "Help Center",
+    "footer8": "Terms of Service",
+    "footer9": "Enter your email",
+    "footer10": "Email address"
+  },
+  "news": {
+    "news1": "BLOG",
+    "news2": "Read Our Lates News",
+    "news3": "Debating all she mistaken indulged believed provided declared. He many kept on draw lain song as same.",
+    "news4": "View All"
   }
 }
