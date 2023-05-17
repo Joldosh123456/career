@@ -1,9 +1,9 @@
-
 import React from 'react'
+import BlockPage from '../components/BlockPage/BlockPage'
 
 function BlogPage() {
   return (
-    <div>BlogPage</div>
+    <div><BlockPage/></div>
   )
 }
 

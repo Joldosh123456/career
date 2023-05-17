@@ -1,0 +1,12 @@
+.all_tegs{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    .left{ 
+        display: flex;
+        width: 60%;
+    }
+    .right{ 
+        width: 30%;
+    }
+}
