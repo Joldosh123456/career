@@ -71,7 +71,66 @@
     flex-direction: column;
     gap: 30px;
     padding-top: 20px;
+
 }
+.map{ 
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 00px;
+    iframe{ 
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        border-radius: 15px;
+        height: 400px;
+
+    }
+   
+
+}
+.share{ 
+    border-top: 1px dashed silver;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    .share_card{ 
+        display: flex;
+        width: 100%;
+        align-items: center;
+        height: 20px;
+        gap: 5px;
+        div{ 
+            display: flex;
+            border: 1px solid black;
+            border-radius: 23px;
+            width: 130px;
+            gap: 10px;
+            cursor: pointer;
+            align-items: center;
+            padding-left: 10px;
+            .blue{ 
+                color: blue;
+            }
+            .red{ 
+                color: #E02D69;
+            }
+            .blues{ 
+                color: #00AAEC;
+            }
+        }
+        div:hover{ 
+            transition: 2s;
+            transform: rotate(10deg);
+        }
+    }
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .top{ 
         ul{
@@ -110,4 +169,25 @@
         width: 100%;
         text-align: left;
     }
+    .map{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        iframe{ 
+            width: 350px;
+            height: 500px;
+        }
+    }
+    .share{ 
+        display: flex;
+        .share_card{ 
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            width: 100%;
+            div{ 
+                width: 120px;
+            }
+        }
+    }
+
 }

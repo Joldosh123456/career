@@ -7,6 +7,10 @@ import group from "../../assets/SmallCardDetalis/traning.png";
 import divaise from "../../assets/SmallCardDetalis/devices.png";
 import personal from "../../assets/SmallCardDetalis/personal.png";
 import { useTranslation } from "react-i18next";
+import instagram from "../../assets/Detalispage/instagram.png";
+import ins from "../../assets/Detalispage/in.png";
+import twitter from "../../assets/Detalispage/twitter.png";
+import facebook from "../../assets/Detalispage/OVERLAY COLOR.png";
 
 function DetalisPageLeft() {
   const { t } = useTranslation();
@@ -50,13 +54,28 @@ function DetalisPageLeft() {
               <h2>{t("deta.deta10")}</h2>
             </div>
             <div className={css.text_color}>
-              <div><p>{t("deta.deta11")}</p></div> 
-              <div><p>{t("deta.deta12")}</p></div>
-              <div><p>{t("deta.deta13")}</p></div>
-              <div><p>{t("deta.deta14")}</p></div>
-              <div><p>{t("deta.deta15")}</p></div>
-              <div><p>{t("deta.deta16")}</p></div>
-             <div> <p>{t("deta.deta17")}</p></div>
+              <div>
+                <p>{t("deta.deta11")}</p>
+              </div>
+              <div>
+                <p>{t("deta.deta12")}</p>
+              </div>
+              <div>
+                <p>{t("deta.deta13")}</p>
+              </div>
+              <div>
+                <p>{t("deta.deta14")}</p>
+              </div>
+              <div>
+                <p>{t("deta.deta15")}</p>
+              </div>
+              <div>
+                <p>{t("deta.deta16")}</p>
+              </div>
+              <div>
+                {" "}
+                <p>{t("deta.deta17")}</p>
+              </div>
             </div>
           </div>
           <div className={css.size}>
@@ -91,8 +110,30 @@ function DetalisPageLeft() {
             </div>
           </div>
         </div>
-        <div>
+        <div className={css.map}>
           <h2>{t("deta.deta25")}</h2>
+          <iframe title="card" src="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.685116%2C55.779982&z=14.16"></iframe>
+        </div>
+        <div className={css.share}>
+          <h2>Share:</h2>
+          <div className={css.share_card}>
+            <div>
+              <img src={facebook} alt="" />
+              <p className={css.blue}>Facebook</p>
+            </div>
+            <div>
+              <img src={instagram} alt="" />
+              <p className={css.red}> Instagram</p>
+            </div>
+            <div>
+              <img src={ins} alt="" />
+              <p className={css.blue}>LinkedIn</p>
+            </div>
+            <div>
+              <img src={twitter} alt="" />
+              <p className={css.blues}>Twitter</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

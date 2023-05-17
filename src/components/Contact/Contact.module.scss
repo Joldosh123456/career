@@ -34,7 +34,21 @@
     width: 100%;
     gap: 30px;
   }
-
+  form{ 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .map{ 
+    iframe{ 
+      width: 755px;
+      height: 500px;
+      border-radius: 10px;
+    }
+  }
   .main_end {
     display: flex;
     flex-direction: column;
@@ -87,6 +101,7 @@
       width: 50%;
     }
   }
+
 }
 #main_end_biginput {
   height: 120px;
@@ -164,5 +179,16 @@
     align-items: center;
     justify-content: center;
     padding: 10px 20px 10px;
+  }
+  .map{ 
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    iframe{ 
+      width: 350px;
+      height: 500px;
+      align-items: center;
+    }
   }
 }

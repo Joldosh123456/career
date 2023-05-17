@@ -1,35 +1,87 @@
-.map{ 
-width: 100%;
-align-items: center;
-
+.map {
+  width: 100%;
+  align-items: center;
 }
 
-.size{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr ;
- }
- .wrapper{ 
+.size {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.wrapper {
   background-color: var(--background-color);
-  gap: 120px;  
   display: flex;
   flex-direction: column;
+  font-family: "Poppins";
+  font-size: 15px;
+  gap: 90px;
+}
+.wrapper_input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
+}
+.fot {
+  margin-top: 70px;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
 
- }
- .wrapper_input{ 
+  .aligin {
     display: flex;
-    justify-content: space-around;
+    width: 70%;
+    gap: 10px;
+    select {
+      width: 116px;
+      height: 26px;
+      border-radius: 8px;
+      background: whitesmoke linear-gradient(silver, silver);
+      color: black;
+      transition: 3s;
+    }
+  }
+}
+.inputs {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  button {
+    background: #fa541c;
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .inpt {
+    display: flex;
+    width: 70%;
+    gap: 30px;
     align-items: center;
-    padding-top: 200px;
- }
- .fot{ 
-    margin-top: 70px;
- }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-   .size{ 
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-   }
+  }
+  input {
+    width: 310.33px;
+    height: 54px;
+    border-radius: 8px;
+    padding-left: 10px;
+    background: rgba(145, 158, 171, 0.08);
+    border: none;
+  }
+}
+option:checked {
+  background: olive linear-gradient(olive, olive);
+  color: blue;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .size {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
