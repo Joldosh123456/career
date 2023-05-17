@@ -40,6 +40,9 @@
     box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
     .borderImg {
       background: #fa541c;
+      img {
+        filter: invert(100%);
+      }
     }
   }
 }

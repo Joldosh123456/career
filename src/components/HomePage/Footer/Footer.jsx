@@ -8,21 +8,24 @@ import tweeter from './images/IconButton (3).svg'
 import email from './images/Message.svg'
 import pin from './images/Map marker.svg'
 import arrow from './images/iconbase.svg'
+import {useTranslation} from 'react-i18next'
+
 function Footer() {
-    return (
+    const {t}= useTranslation()
+    return ( 
         <>
         <section className='preFooter'>
-            <h1>Get The Right Job For You</h1>
-            <p>Subscribe to get updated on latest and relevant career opportunities</p>
+            <h1>{t("footer.footer1")}</h1>
+            <p>{t("footer.footer2")}</p>
             <div>
-                <input type="text" placeholder='Enter your email' />
-                <button>Subscribe</button>
+                <input type="text" placeholder={t("footer.footer9")} />
+                <button>{t("footer.footer3")}</button>
             </div>
         </section>
         <section className='footer'>
             <div className='leftFooter'>
                 <img src={logo} alt="" />
-                <p>The starting point for your next project based on easy-to-customize Material-UI © helps you build apps faster and better.</p>
+                <p>{t("footer.footer4")}</p>
                 <div className='messangers'>
                     <img src={facebook} alt="" />
                     <img src={insta} alt="" />
@@ -37,21 +40,21 @@ function Footer() {
                 </div>
                 <div  className='flexFooter'>
                     <img src={pin} alt="" />
-                    <a href='#' >655 Schaefer Dale</a>
+                    <a href='#' >{t("footer.footer5")}</a>
                 </div>
             </div>
             <div className='rightFooter'>
-                <input type="text"  placeholder='Email address'/>
+                <input type="text"  placeholder={t("footer.footer10")}/>
                 <button>
                     <img src={arrow} alt="" />
                 </button>
             </div>
         </section>
         <section className='footerEnd'>
-            <a href='#'>© 2021. All rights reserved</a>
+            <a href='#'>{t("footer.footer6")}</a>
             <div>
-                <a href='#'>Help Center</a>
-                <a href='#'>Terms of Service</a>
+                <a href='#'>{t("footer.footer7")}</a>
+                <a href='#'>{t("footer.footer8")}</a>
             </div>
         </section>
         </>
