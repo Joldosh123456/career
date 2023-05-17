@@ -71,7 +71,7 @@ function Contact() {
         </div>
         <div className={css.main_end}>
           <div className={css.map}>
-            <iframe src="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.685116%2C55.779982&z=14.16"></iframe>
+            <iframe title="card" src="https://yandex.ru/maps/geo/moskva/53166393/?ll=37.685116%2C55.779982&z=14.16"></iframe>
           </div>
           <div className={css.main_end_center}>
             <h1>{t("contact.contact9")}</h1>
