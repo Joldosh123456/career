@@ -11,7 +11,7 @@ function Featured() {
     MapSlider.map((item) => (
         <Mapslide key={item.id} {...item} />
         ))
-  
+   
 
   return (
     <div className={scss.featured}>

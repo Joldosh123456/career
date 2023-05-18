@@ -30,8 +30,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
+    @media (max-width: 576px) {
+      width: 100%;
+      flex-direction: column;
+    }
     .featLeft {
       width: 25%;
+      @media (max-width: 576px) {
+        width: 100%;
+        text-align: center;
+      }
       p {
         font-family: "Poppins";
         font-style: normal;
@@ -44,6 +52,10 @@
     }
     .featRight {
       width: 60%;
+      @media (max-width: 576px) {
+        width: 100%;
+        text-align: center;
+      }
       h2 {
         font-family: "Barlow";
         font-style: normal;
@@ -60,6 +72,10 @@
       display: grid;
       width: 100%;
       grid-template-columns: 1fr 1fr 1fr;
+      @media (max-width: 576px) {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }

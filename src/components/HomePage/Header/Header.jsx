@@ -12,8 +12,9 @@ import { useState } from "react";
 function Header() {
   const { t, i18n } = useTranslation();
   const [isActive, setActive] = useState(false);
+  const [phone,setPhone] = useState(false)
   const handleScroll = useCallback(() => {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 10) {
       setActive(true);
     } else {
       setActive(false);
@@ -33,8 +34,12 @@ function Header() {
   const lngChange = i18n.language;
   const [inp, setInp] = useState(false);
 
+  const change = () => {
+    setPhone(!phone)
+  }
+
   return (
-    <div className={scss.header} style={{background : isActive ? "white" : ""}}>
+    <div className={!phone ? scss.header_white : scss.header_black} style={{background : isActive ? !phone ? "white" : " #161C24" : ""}}>
       <div className={scss.headerLeft}>
         <img src={logo} alt="Logo Image" />
         <a href="/">{t("header.headerHome")}</a>
@@ -80,8 +85,8 @@ function Header() {
           onClick={() => changeLanguage(lngChange === "ru" ? "en" : "ru")}
         />
         {/* <img src={lng} alt="language" onClick={() => changeLanguage("en")} /> */}
-        <ThemeSwitcher />
-        <img src={layer} alt="layer" className={scss.layer} />
+        <ThemeSwitcher change={change}/>
+        <img src={layer} alt="layer" className={scss.layer}  onClick={change}/>
         <button>Login</button>
         <button>Join us</button>
       </div>

@@ -1,0 +1,25 @@
+.blog {
+    display: flex;
+    gap: 32px;
+    @media (max-width: 576px){
+      width: 100%;
+      flex-direction: column;
+    }
+  .blog_page_left {
+    display: flex;
+    gap: 10px;
+    @media (max-width: 576px){
+      width: 100%;
+    }
+    .left_card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .center_card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
