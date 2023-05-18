@@ -4,11 +4,9 @@
 }
 
 .size {
-  display: grid !important; 
-  width: 100% !important;
+  display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
- 
-
 }
 .wrapper {
   background-color: var(--background-color);

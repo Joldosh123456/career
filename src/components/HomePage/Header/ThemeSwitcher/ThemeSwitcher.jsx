@@ -5,7 +5,7 @@ import WbSunnyIcon from "@mui/icons-material/WbSunny";
 
 
 
-const ThemeSwitcher = () => {
+const ThemeSwitcher = ({change}) => {
   const [isDark, setDark] = useState(localStorage.getItem("app"));
   const ThemeIcon = isDark ? NightsStayIcon : WbSunnyIcon;
   useEffect(() => {
@@ -14,9 +14,15 @@ const ThemeSwitcher = () => {
       isDark ? "dark" : "light"
     );
   }, [isDark]);
-  console.log(isDark);
+  
+  const click = () => {
+    setDark(!isDark)
+    change()
+  }
+
+
   return (
-    <div className={styles.switcher} onClick={() => setDark(!isDark)}>
+    <div className={styles.switcher} onClick={click}>
       <ThemeIcon  className={styles.icon}></ThemeIcon>
     </div>
   );

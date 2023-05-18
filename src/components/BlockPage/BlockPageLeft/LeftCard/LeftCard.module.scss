@@ -1,0 +1,52 @@
+.card_data {
+  width: 356px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 0 10%;
+
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--text-colorP);
+    opacity: 0.72;
+  }
+  cursor: pointer;
+  .newsImage {
+    width: 100%;
+    img {
+      width: 126%;
+      margin-left: -13%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      @media (max-width: 576px) {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+  .news_date {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  .user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 24px 0 20px 0;
+  }
+  h5 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-colorH);
+    margin: 8px 0;
+  }
+}
