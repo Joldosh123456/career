@@ -1,18 +1,20 @@
-.all_tegs{ 
+
+.wrapper {
+    background-color: var(--background-color);
+  .all_tegs {
+    padding: 180px 0 100px 0;
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    
-    .left{ 
-        display: flex;
-        width: 60%;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      width: 60%;
     }
-    .right{ 
-        width: 30%;
+    .right {
+      width: 30%;
+      @media (max-width: 576px){
+        display: none;
+      }
     }
-}
-.wrapper{ 
-    background-color: var(--background-color);
-    color: var(--text-colorP);
-    color: var(--text-colorH);
+  }
 }

@@ -62,7 +62,7 @@
   }
 }
 .slide_card:hover {
-//   background: #ffffff;
+  //   background: #ffffff;
 
   box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
   border-radius: 16px;
@@ -72,17 +72,15 @@
   color: var(--text-colorP);
   color: var(--text-colorH);
   background-color: var(--background-color);
-  
 }
-.likes{ 
+.likes {
   width: 25px;
   height: 25px;
   margin-top: 10px;
 }
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .slide_card{ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .slide_card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +88,7 @@
     padding: 0px 0px 0px 0px;
     margin-left: -30px;
   }
-  .wrapper{ 
+  .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;

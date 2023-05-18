@@ -8,6 +8,9 @@ import search from '../../components/ListPage/search.png'
 
 
 function ListPages() {
+  const cut = MapSlider.map((el) => (
+    <Mapslide key={el.id} {...el} />
+  ))
   return (
     <div className={css.wrapper}>
       <div className={css.headers}>
@@ -82,9 +85,7 @@ function ListPages() {
       <div className="container">
         <div className={css.map}>
           <div className={css.size}>
-            {MapSlider.map((el) => (
-              <Mapslide key={el.id} {...el} />
-            ))}
+            {cut.slice(0,12)}
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ function BlockPageRight() {
         <input
           type="text"
           className={css.image_input}
-          placeholder="Search..."
+          placeholder="Search..." 
         />
       </div>
       <div className={css.text}>
